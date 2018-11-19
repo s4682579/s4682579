@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>2018-11-09-團體專案試切</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="photo.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!-- 首頁 -->
+    <div class="div" id="home">
+        <header>
+            <ul>
+                <li><a href="#news">最新消息</a></li>
+                <li><a href="#food_lin">精選菜單</a></li>
+                <li id="li3"><a href="#home"><img src="img/logo.png" alt="菊野家" width="80px" height="80px"></a></li>
+                <li><a href="#about">關於我們</a></li>
+                <li><a href="#info">分店資訊</a></li>
+            </ul>
+        </header>
+
+        <!-- https://codepen.io/mayurbirle/pen/eEevBZ/ -->
+        <div class="slider_box">	
+            <input type="radio" id="i1" name="images" checked />
+            <input type="radio" id="i2" name="images" />
+            <input type="radio" id="i3" name="images" />
+            <!-- <input type="radio" id="i4" name="images" />
+            <input type="radio" id="i5" name="images" />	 -->
+            
+            <div class="slide_img" id="one">			
+                    
+                    <img src="">
+                    
+                        <label class="prev" for="i3"><span>&#x2039;</span></label>
+                        <label class="next" for="i2"><span>&#x203a;</span></label>	
+                
+            </div>
+            
+            <div class="slide_img" id="two">
+                
+                    <img src="" >
+                    
+                        <label class="prev" for="i1"><span>&#x2039;</span></label>
+                        <label class="next" for="i3"><span>&#x203a;</span></label>
+                
+            </div>
+                    
+            <div class="slide_img" id="three">
+                    <img src="">	
+                    
+                        <label class="prev" for="i2"><span>&#x2039;</span></label>
+                        <label class="next" for="i1"><span>&#x203a;</span></label>
+            </div>
+        
+            <!-- <div class="slide_img" id="four">
+                    <img src="http://wallpaperswide.com/download/big_hero_6_baymax-wallpaper-1152x720.jpg">	
+                    
+                        <label class="prev" for="i3"><span>&#x2039;</span></label>
+                        <label class="next" for="i5"><span>&#x203a;</span></label>
+            </div>
+        
+            <div class="slide_img" id="five">
+                    <img src="http://www.wallpapereast.com/static/images/toys-wallpaper-hd-16339-17046-hd-wallpapers.jpg">	
+                    
+                        <label class="prev" for="i4"><span>&#x2039;</span></label>
+                        <label class="next" for="i1"><span>&#x203a;</span></label>
+        
+            </div> -->
+        
+            <div id="nav_slide">
+                <label for="i1" class="dots" id="dot1"></label>
+                <label for="i2" class="dots" id="dot2"></label>
+                <label for="i3" class="dots" id="dot3"></label>
+                <!-- <label for="i4" class="dots" id="dot4"></label>
+                <label for="i5" class="dots" id="dot5"></label> -->
+            </div>
+                
+        </div>
+    </div>
+    </div>
+    <!-- 最新資訊 -->
+    <div class="div news" id="news">
+        <h1>最新資訊</h1>
+
+        <div class="newsbox">
+            <div class="news_img" id="news1_img"></div>
+            <div class="new_container" id="news1_text">
+                <p>全台吃透透，餵你挺平權</p>
+                <p>11/07-11/23 活動期間 ，按下參加活動並分享活動公開分享到個人頁面只要拿給我們看即可享以下優惠～</p>
+                <p> <a href="https://www.facebook.com/events/720362798320397/">www.facebook.com/events/720362798320397/</a></p><br>
+                <p>#霜淇淋口味第二杯半價</p>
+                <p>#日式鬆餅9折</p>
+            </div>
+        </div>
+        <div class="newsbox">
+            <div class="news_img" id="news2_img"></div>
+            <div class="new_container" id="news2_text">
+                <p>#反核 全國廢核行動平台</p><br><br>
+                <p>11月份 好多事 希望我們都能往更好的自己前進，給未來更棒的生活 加油</p>
+            </div>
+        </div>
+
+    </div>
+    <!-- 店家菜單_員林 -->
+    <div class="div food" id="food_lin">
+        <h1>員林店</h1>
+        <div class="fooddiv">
+            <div class="foodbox" id="lin_1">
+                <div class="foodbox_img" id="lin_1_img"></div>
+                <h2>芒果戀愛御守</h2>
+            </div>
+            <div class="foodbox" id="lin_2">
+                <div class="foodbox_img" id="lin_2_img"></div>
+                <h2>芒果戀愛御守</h2>
+            </div>
+            <div class="foodbox" id="lin_3">
+                <div class="foodbox_img" id="lin_3_img"></div>
+                <h2>芒果戀愛御守</h2>
+            </div>
+            <div class="foodbox" id="lin_4">
+                <div class="foodbox_img" id="lin_4_img"></div>
+                <h2>芒果戀愛御守</h2>
+            </div>
+            <div class="foodbox" id="lin_5">
+                <div class="foodbox_img" id="lin_5_img"></div>
+                <h2>芒果戀愛御守</h2>
+            </div>
+            <div class="foodbox" id="lin_6">
+                <div class="foodbox_img" id="lin_6_img"></div>
+                <h2>芒果戀愛御守</h2>
+            </div>
+        </div>
+    </div>
+    <!-- 店家菜單_台中 -->
+    <div class="div food" id="food_tai">
+        <h1>台中店</h1>
+        <div class="fooddiv">
+            <div class="foodbox" id="tai_1">
+                <div class="foodbox_img" id="tai_1_img"></div>
+                <h2>芒果戀愛御守</h2>
+            </div>
+            <div class="foodbox" id="tai_2">
+                <div class="foodbox_img" id="tai_2_img"></div>
+                <h2>芒果戀愛御守</h2>
+            </div>
+            <div class="foodbox" id="tai_3">
+                <div class="foodbox_img" id="tai_3_img"></div>
+                <h2>芒果戀愛御守</h2>
+            </div>
+            <div class="foodbox" id="tai_4">
+                <div class="foodbox_img" id="tai_4_img"></div>
+                <h2>芒果戀愛御守</h2>
+            </div>
+            <div class="foodbox" id="tai_5">
+                <div class="foodbox_img" id="tai_5_img"></div>
+                <h2>芒果戀愛御守</h2>
+            </div>
+            <div class="foodbox" id="tai_6">
+                <div class="foodbox_img" id="tai_6_img"></div>
+                <h2>芒果戀愛御守</h2>
+            </div>
+        </div>
+    </div>
+    <!-- 店家資訊 -->
+    <div class="div info" id="info" >
+        <h1>分店資訊</h1>
+        <div class="info" id="lin_info">
+            <div class="info_img"></div>
+            <div class="info_text">
+                <p>員林店</p>
+                <p>地址：彰化縣員林市三民街73號<br>
+                    電話：04-835-8911</p>
+                <p>星期一 12:00 – 22:00<br>
+                    星期二 14:30 – 20:30<br>
+                    星期三 14:30 – 20:30<br>
+                    星期四 休息<br>
+                    星期五 12:00 – 22:00<br>
+                    星期六 11:00 – 22:00<br>
+                    星期日 11:00 – 20:00<br>
+                </p>
+            </div>
+        </div>
+        <div class="info" id="tai_info">
+            <div class="info_img"></div>
+            <div class="info_text">
+                <p>台中店</p>
+                <p>地址：台中市東區立德街67巷3號<br>
+                    電話：04-2222-1859</p>
+                <p>星期一 17:00 – 02:00<br>
+                    星期二 休息<br>
+                    星期三 17:00 – 02:00<br>
+                    星期四 休息<br>
+                    星期五 17:00 – 02:00<br>
+                    星期六 16:00 – 02:00<br>
+                    星期日 16:00 – 02:00<br>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- 關於我們 -->
+    <div class="div about" id="about" >
+        <h1>關於我們</h1>
+        <div class="about">
+            <div class="about_L">
+                <p>創業起源 :</p>
+                <p>菊野家自民國 102 年創立，命名由來取自於老闆的日本名字”菊夏智野”，來自設計系畢業的菊老闆，起先創立服飾店，但因為服飾景氣已逐漸走下坡了，所以決定將服飾店與自己喜愛烹飪的興趣相互結合，在 104
+                    年開始販賣霜淇淋。店家走的是溫馨的風格，目的是為了讓顧客在這裡消費能有一種在家裡的感覺，放鬆而悠閒自在。
+                </p>
+            </div>
+            <div class="about_R"></div>
+        </div>
+    </div>
+    <!-- 經營理念 -->
+    <div class="div story">
+        <h1>經營理念</h1>
+        <div class="card" id="card_lin" style="width: 520px;">
+            <h2>員林店</h2>
+            <img class="card-img-top" src="" alt="">
+            <div class="card-body">
+                <p class="card-text">不管心情的好壞，都來點甜甜的滋味吧，而我們就是因為這樣
+                    而存在著的，菊野家或許不是妳們心目中最好吃的，但我相信
+                    來到這裡絕對會讓妳想起，不知何時被遺忘掉的那一位放鬆的
+                    自己。
+                </p>
+            </div>
+        </div>
+        <div class="card" id="card_tai" style="width: 520px;">
+            <h2>台中店</h2>
+            <img class="card-img-top" src="" alt="">
+            <div class="card-body">
+                <p class="card-text">忙碌的生活，下了班找個地方好好的犒賞自己一下吧!
+                    我們要的就是讓妳有回到家般的笑容，舒服又放鬆的氛圍
+                    歡迎來品嚐一下，就讓這平淡無奇的夜晚增添一份愉悅的
+                    笑容吧。
+                </p>
+            </div>
+        </div>
+        <footer>
+            <div class="footercard" id="footer_lin">
+                <h2>員林店</h2>
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-instagram"></i>
+                <h3>04-8358911</h3>
+                <p>彰化縣員林市三民街73號</p>
+            </div>
+            <div class="footercard" id="footer_tai">
+                <h2>台中店</h2>
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-instagram"></i>
+                <h3>04-22221859</h3>
+                <p>台中市東區立德街67巷3號 </p>
+            </div>
+        </footer>
+    </div>
+
+
+    <!-- 分店資訊 -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <!-- 連播圖用 -->
+
+
+</body>
+
+</html>
