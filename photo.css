@@ -1,0 +1,133 @@
+/* 首頁-連播圖 */
+
+.slider_box .slider_img{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slider_box #one{
+    background-image: url();
+}
+.slider_box #two{
+    background-image: url();
+}
+.slider_box #three{
+    background-image: url();
+}
+
+
+/* 最新資訊 */
+
+.div.news .newsbox .news_img{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#news .newsbox #news1_img{
+    background-image: url()
+}
+#news .newsbox #news2_img{
+    background-image: url()
+}
+
+/* 店家菜單 */
+.div.food .fooddiv .foodbox {
+    text-align: center;
+}
+
+.div.food .fooddiv .foodbox .foodbox_img{
+    width: 100%;
+    height: 80%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 0 10px #FFC892 inset;
+}
+#food_tai .fooddiv .foodbox .foodbox_img{
+    box-shadow: 0 0 0 10px #3D577C inset;
+}
+
+/* 員林 */
+#food_lin .fooddiv #lin_1_img{
+    background-image: url()
+}
+#food_lin .fooddiv #lin_2_img{
+    background-image: url()
+}
+#food_lin .fooddiv #lin_3_img{
+    background-image: url()
+}
+#food_lin .fooddiv #lin_4_img{
+    background-image: url()
+}
+#food_lin .fooddiv #lin_5_img{
+    background-image: url()
+}
+#food_lin .fooddiv #lin_6_img{
+    background-image: url()
+}
+
+/* 台中 */
+#food_tai .fooddiv #tai_1_img{
+    background-image: url()
+}
+#food_tai .fooddiv #tai_2_img{
+    background-image: url()
+}
+#food_tai .fooddiv #tai_3_img{
+    background-image: url()
+}
+#food_tai .fooddiv #tai_4_img{
+    background-image: url()
+}
+#food_tai .fooddiv #tai_5_img{
+    background-image: url()
+}
+#food_tai .fooddiv #tai_6_img{
+    background-image: url()
+}
+
+/* 店家資訊 */
+.div.info .info .info_img{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* 員林店 */
+.div.info #lin_info .info_img{
+    background-image: url()
+}
+/* 台中店 */
+.div.info #tai_info .info_img{
+    background-image: url()
+}
+
+/* 關於我們 */
+
+.div.about .about .about_R{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url()
+}
+
+/* 經營理念*/
+
+
+/* 員林店 */
+.div.story #card_lin .card-img-top{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url()
+}
+
+/* 台中店 */
+.div.story #card_tai .card-img-top{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url()
+}
