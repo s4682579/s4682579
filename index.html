@@ -5,17 +5,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>2018-11-09-團體專案試切</title>
+    <title>-菊野家-</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="photo.css">
+    <link rel="stylesheet" href="mobile.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+
+
+    <style>
+
+    </style>
 
 </head>
 
 <body>
     <!-- 首頁 -->
     <div class="div" id="home">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">菊野家</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">首頁<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            精選菜單
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" id="navlin" href="#food_lin">員林店</a>
+                            <a class="dropdown-item" id="navtai" href="#food_tai">台中店</a>
+
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="navinfo" href="#info">分店資訊</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="navabout" href="#about">關於我們</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+
         <header>
             <ul>
                 <li><a href="#news">最新消息</a></li>
@@ -27,38 +68,38 @@
         </header>
 
         <!-- https://codepen.io/mayurbirle/pen/eEevBZ/ -->
-        <div class="slider_box">	
+        <div class="slider_box">
             <input type="radio" id="i1" name="images" checked />
             <input type="radio" id="i2" name="images" />
             <input type="radio" id="i3" name="images" />
             <!-- <input type="radio" id="i4" name="images" />
             <input type="radio" id="i5" name="images" />	 -->
-            
-            <div class="slide_img" id="one">			
-                    
-                    <img src="">
-                    
-                        <label class="prev" for="i3"><span>&#x2039;</span></label>
-                        <label class="next" for="i2"><span>&#x203a;</span></label>	
-                
+
+            <div class="slide_img" id="one">
+
+                <img src="">
+
+                <label class="prev" for="i3"><span>&#x2039;</span></label>
+                <label class="next" for="i2"><span>&#x203a;</span></label>
+
             </div>
-            
+
             <div class="slide_img" id="two">
-                
-                    <img src="" >
-                    
-                        <label class="prev" for="i1"><span>&#x2039;</span></label>
-                        <label class="next" for="i3"><span>&#x203a;</span></label>
-                
+
+                <img src="">
+
+                <label class="prev" for="i1"><span>&#x2039;</span></label>
+                <label class="next" for="i3"><span>&#x203a;</span></label>
+
             </div>
-                    
+
             <div class="slide_img" id="three">
-                    <img src="">	
-                    
-                        <label class="prev" for="i2"><span>&#x2039;</span></label>
-                        <label class="next" for="i1"><span>&#x203a;</span></label>
+                <img src="">
+
+                <label class="prev" for="i2"><span>&#x2039;</span></label>
+                <label class="next" for="i1"><span>&#x203a;</span></label>
             </div>
-        
+
             <!-- <div class="slide_img" id="four">
                     <img src="http://wallpaperswide.com/download/big_hero_6_baymax-wallpaper-1152x720.jpg">	
                     
@@ -73,7 +114,7 @@
                         <label class="next" for="i1"><span>&#x203a;</span></label>
         
             </div> -->
-        
+
             <div id="nav_slide">
                 <label for="i1" class="dots" id="dot1"></label>
                 <label for="i2" class="dots" id="dot2"></label>
@@ -81,7 +122,7 @@
                 <!-- <label for="i4" class="dots" id="dot4"></label>
                 <label for="i5" class="dots" id="dot5"></label> -->
             </div>
-                
+
         </div>
     </div>
     </div>
@@ -89,20 +130,21 @@
     <div class="div news" id="news">
         <h1>最新資訊</h1>
 
-        <div class="newsbox">
+        <div class="newsbox" id="newsbox1">
             <div class="news_img" id="news1_img"></div>
             <div class="new_container" id="news1_text">
-                <p>全台吃透透，餵你挺平權</p>
+                <h3>全台吃透透，餵你挺平權</h3>
                 <p>11/07-11/23 活動期間 ，按下參加活動並分享活動公開分享到個人頁面只要拿給我們看即可享以下優惠～</p>
-                <p> <a href="https://www.facebook.com/events/720362798320397/">www.facebook.com/events/720362798320397/</a></p><br>
+                <p><a href="https://www.facebook.com/events/720362798320397/">www.facebook.com/events/720362798320397/</a></p>
                 <p>#霜淇淋口味第二杯半價</p>
                 <p>#日式鬆餅9折</p>
             </div>
         </div>
-        <div class="newsbox">
+        <div class="newsbox" id="newsbox2">
             <div class="news_img" id="news2_img"></div>
             <div class="new_container" id="news2_text">
-                <p>#反核 全國廢核行動平台</p><br><br>
+                <br>
+                <h3>#反核 全國廢核行動平台</h3>
                 <p>11月份 好多事 希望我們都能往更好的自己前進，給未來更棒的生活 加油</p>
             </div>
         </div>
@@ -118,23 +160,23 @@
             </div>
             <div class="foodbox" id="lin_2">
                 <div class="foodbox_img" id="lin_2_img"></div>
-                <h2>芒果戀愛御守</h2>
+                <h2>金色年代</h2>
             </div>
             <div class="foodbox" id="lin_3">
                 <div class="foodbox_img" id="lin_3_img"></div>
-                <h2>芒果戀愛御守</h2>
+                <h2>萬丹紅豆鬆餅</h2>
             </div>
             <div class="foodbox" id="lin_4">
                 <div class="foodbox_img" id="lin_4_img"></div>
-                <h2>芒果戀愛御守</h2>
+                <h2>覆盆子草莓</h2>
             </div>
             <div class="foodbox" id="lin_5">
                 <div class="foodbox_img" id="lin_5_img"></div>
-                <h2>芒果戀愛御守</h2>
+                <h2>薰衣草特調</h2>
             </div>
             <div class="foodbox" id="lin_6">
                 <div class="foodbox_img" id="lin_6_img"></div>
-                <h2>芒果戀愛御守</h2>
+                <h2>奶油啤酒特調</h2>
             </div>
         </div>
     </div>
@@ -144,32 +186,32 @@
         <div class="fooddiv">
             <div class="foodbox" id="tai_1">
                 <div class="foodbox_img" id="tai_1_img"></div>
-                <h2>芒果戀愛御守</h2>
+                <h2>野豬騎士</h2>
             </div>
             <div class="foodbox" id="tai_2">
                 <div class="foodbox_img" id="tai_2_img"></div>
-                <h2>芒果戀愛御守</h2>
+                <h2>懦夫救星</h2>
             </div>
             <div class="foodbox" id="tai_3">
                 <div class="foodbox_img" id="tai_3_img"></div>
-                <h2>芒果戀愛御守</h2>
+                <h2>柴可夫愛吃雞</h2>
             </div>
             <div class="foodbox" id="tai_4">
                 <div class="foodbox_img" id="tai_4_img"></div>
-                <h2>芒果戀愛御守</h2>
+                <h2>古巴三明治</h2>
             </div>
             <div class="foodbox" id="tai_5">
                 <div class="foodbox_img" id="tai_5_img"></div>
-                <h2>芒果戀愛御守</h2>
+                <h2>漂浮紅茶</h2>
             </div>
             <div class="foodbox" id="tai_6">
                 <div class="foodbox_img" id="tai_6_img"></div>
-                <h2>芒果戀愛御守</h2>
+                <h2>黑芝麻鮮奶茶</h2>
             </div>
         </div>
     </div>
     <!-- 店家資訊 -->
-    <div class="div info" id="info" >
+    <div class="div info" id="info">
         <h1>分店資訊</h1>
         <div class="info" id="lin_info">
             <div class="info_img"></div>
@@ -205,7 +247,7 @@
         </div>
     </div>
     <!-- 關於我們 -->
-    <div class="div about" id="about" >
+    <div class="div about" id="about">
         <h1>關於我們</h1>
         <div class="about">
             <div class="about_L">
@@ -214,13 +256,15 @@
                     年開始販賣霜淇淋。店家走的是溫馨的風格，目的是為了讓顧客在這裡消費能有一種在家裡的感覺，放鬆而悠閒自在。
                 </p>
             </div>
-            <div class="about_R"></div>
+            <div class="about_R">
+                <div class="about_R_img"></div>
+            </div>
         </div>
     </div>
     <!-- 經營理念 -->
-    <div class="div story">
+    <div class="div story" id="story">
         <h1>經營理念</h1>
-        <div class="card" id="card_lin" style="width: 520px;">
+        <div class="card" id="card_lin" style="max-width: 520px;">
             <h2>員林店</h2>
             <img class="card-img-top" src="" alt="">
             <div class="card-body">
@@ -231,14 +275,12 @@
                 </p>
             </div>
         </div>
-        <div class="card" id="card_tai" style="width: 520px;">
+        <div class="card" id="card_tai" style="max-width: 520px;">
             <h2>台中店</h2>
             <img class="card-img-top" src="" alt="">
             <div class="card-body">
                 <p class="card-text">忙碌的生活，下了班找個地方好好的犒賞自己一下吧!
-                    我們要的就是讓妳有回到家般的笑容，舒服又放鬆的氛圍
-                    歡迎來品嚐一下，就讓這平淡無奇的夜晚增添一份愉悅的
-                    笑容吧。
+                    我們要的就是讓妳有回到家般的笑容，舒服又放鬆的氛圍。歡迎來品嚐一下，就讓這平淡無奇的夜晚增添一份愉悅的笑容吧。
                 </p>
             </div>
         </div>
@@ -257,14 +299,92 @@
                 <h3>04-22221859</h3>
                 <p>台中市東區立德街67巷3號 </p>
             </div>
+
         </footer>
     </div>
 
 
-    <!-- 分店資訊 -->
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
-    <!-- 連播圖用 -->
+
+
+    <!-- 真不會 -->
+    <script type="text/javascript">
+        if (screen.width < 380)
+            document.write('<script type="text/javascript" src="mobile.html"><\/script>');
+        else
+            document.write('<script type="text/javascript" src="mobile.js"><\/script>');
+    </script>
+    <script>
+        var food1 = document.querySelector("#food_lin h1");
+        var food2 = document.querySelector("#food_tai h1");
+        var info = document.querySelector(".div.info h1");
+        var story = document.querySelector(".div.story h1");
+
+        var navlin = document.querySelector("#navlin");
+        var navtai = document.querySelector("#navtai");
+        var navinfo = document.querySelector("#navinfo");
+        var navabout = document.querySelector("#navabout");
+
+
+        var food_lin = document.querySelector("#food_lin .fooddiv");
+        var food_tai = document.querySelector("#food_tai .fooddiv");
+        var lin_info = document.querySelector("#info #lin_info");
+        var tai_info = document.querySelector("#info #tai_info");
+        var card_lin = document.querySelector("#card_lin");
+        var card_tai = document.querySelector("#card_tai");
+
+
+
+
+        food1.onclick = function () {
+            food_lin.classList.toggle("show");
+        };
+        navlin.onclick = function () {
+            food_lin.classList.add("show");
+        };
+
+        food2.onclick = function () {
+            food_tai.classList.toggle("show");
+        };
+        navtai.onclick = function () {
+            food_lin.classList.add("show");
+        };
+
+        info.onclick = function () {
+            lin_info.classList.toggle("show");
+            tai_info.classList.toggle("show");
+        };
+        navinfo.onclick = function () {
+            lin_info.classList.add("show");
+            tai_info.classList.add("show");
+        };
+
+        story.onclick = function () {
+            card_lin.classList.toggle("show");
+            card_tai.classList.toggle("show");
+        };
+        navabout.onclick = function () {
+            card_lin.classList.add("show");
+            card_tai.classList.add("show");
+        };
+
+        $(function () {
+            if ($(window).width() < 480) { //當視窗小於480時才運作
+                $('a').on('click', function () {
+                    $('.navbar-toggle').click();
+                });
+            }
+        });
+    </script>
 
 
 </body>
