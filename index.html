@@ -43,7 +43,7 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" id="navlin" href="#food_lin">員林店</a>
                             <a class="dropdown-item" id="navtai" href="#food_tai">台中店</a>
-
+                           
                         </div>
                     </li>
                     <li class="nav-item">
@@ -262,7 +262,7 @@
         </div>
     </div>
     <!-- 經營理念 -->
-    <div class="div story" id="story">
+    <div class="div story" id="story" >
         <h1>經營理念</h1>
         <div class="card" id="card_lin" style="max-width: 520px;">
             <h2>員林店</h2>
@@ -344,7 +344,7 @@
 
 
 
-
+        
         food1.onclick = function () {
             food_lin.classList.toggle("show");
         };
@@ -375,18 +375,17 @@
         navabout.onclick = function () {
             card_lin.classList.add("show");
             card_tai.classList.add("show");
-        };
+        };      
 
-        $(function () {
-            if ($(window).width() < 480) { //當視窗小於480時才運作
-                $('a').on('click', function () {
-                    $('.navbar-toggle').click();
-                });
-            }
-        });
     </script>
-
-
+    <script>
+    $(function(){ 
+        if($(window).width()<480){ //當視窗小於480時才運作
+        $('.navbar').on('click', function(){
+            $('.navbar-toggle').click();
+          });
+        }
+        });</script>
 </body>
 
 </html>
